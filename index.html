@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/spiner.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Enviar Email</h1>
+        <form id="formulario" class="containerForm">
+            <div class="form">
+                <label for="email" class="font-regular">Email:</label>
+                <input id="email" type="email" name="email" placeHolder="Email destino, ej ejemplo@empresa.com"
+                    class="box">
+            </div>
+            <div class="form">
+                <label for="email" class="font-regular">CC:</label>
+                <input id="cc" type="email" name="cc" placeHolder=" Otro Email destino, ej asistente@empresa.com"
+                    class="box">
+            </div>
+            <div class="form">
+                <label for="email" class="font-regular">Asunto:</label>
+                <input id="asunto" type="text" name="asunto" placeHolder="Asunto Email" class="box">
+            </div>
+            <div class="form">
+                <label for="email" class="font-regular">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" type='email' cols="30" rows="" class="box"
+                    placeHolder="Mensaje de Email" ></textarea>
+            </div>
+            <div class="container-buttons">
+                <button type="submit" class="buttons opacity" disabled>Enviar</button>
+                <button type="reset" class="buttons">Reset</button>
+            </div>
+            <div id="spinner" class="hidden">
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
